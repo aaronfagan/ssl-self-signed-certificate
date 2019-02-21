@@ -8,3 +8,6 @@
 
 ## Sign the SSL Certificate
 `sudo openssl x509 -req -days 3650 -in localhost.csr -signkey localhost.key -out localhost.crt -extensions v3_req -extfile localhost.conf`
+
+# Contributors
+* Aaron Fagan - [Github](https://github.com/aaronfagan), [Website](https://www.aaronfagan.ca/)
