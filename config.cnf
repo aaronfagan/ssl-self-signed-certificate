@@ -1,24 +1,24 @@
 [req]
-default_bits       			    = 4096
-distinguished_name 			    = req_distinguished_name
-req_extensions     			    = v3_req
+default_bits = 4096
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
 
 [req_distinguished_name]
-countryName                 = 
-countryName_default         = CA
-stateOrProvinceName         = 
+countryName = 
+countryName_default = CA
+stateOrProvinceName = 
 stateOrProvinceName_default = Alberta
-localityName                = 
-localityName_default        = Calgary
-organizationName            = 
-organizationName_default    = My Company
-commonName                  = 
-commonName_default          = localhost
-commonName_max              = 64
+localityName = 
+localityName_default = Calgary
+organizationName = 
+organizationName_default = My Company
+commonName = 
+commonName_default = localhost
+commonName_max = 64
 
 [v3_req]
-subjectAltName 				      = @alt_names
+subjectAltName = @alt_names
 
 [alt_names]
-DNS.1   					          = my-computer.local
-DNS.2   					          = my-computer-2.local
+DNS.1 = my-computer.local
+DNS.2 = my-computer-2.local
