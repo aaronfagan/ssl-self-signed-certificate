@@ -2,7 +2,7 @@ repository:
   name: 'ssl-self-signed-certificate'
   description: 'Basic steps and configuration to generate a Self Signed Certificate'
   homepage: ''
-  default_branch: 'master'
+  default_branch: 'main'
   private: false
   has_issues: true
   has_wiki: false
